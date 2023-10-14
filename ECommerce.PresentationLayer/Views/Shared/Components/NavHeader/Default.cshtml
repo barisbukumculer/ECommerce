@@ -50,13 +50,13 @@
                                 @foreach (var item in Model)
                                 {
                                     <li class="notification-unread">
-                                        <a href="/adminpanel/messagedetail/@item.MessageId">
-                                                <img class="float-left mr-3 avatar-img" src="@item.SenderUser.ImageUrl" alt="">
-                                                <div class="notification-content">
-                                                    <div class="notification-heading">@item.SenderUserName</div>
-                                                    <div class="notification-timestamp">@item.Created.ToString("dd/MM/yy")</div>
-                                                    <div class="notification-text">@item.Subject</div>
-                                                </div>
+                                        <a href="/adminpanel/messages/detail/@item.MessageId">
+                                            <img class="float-left mr-3 avatar-img" src="@item.SenderUser.ImageUrl" alt="">
+                                            <div class="notification-content">
+                                                <div class="notification-heading">@item.SenderUserName</div>
+                                                <div class="notification-timestamp">@item.Created.ToString("dd/MM/yy")</div>
+                                                <div class="notification-text">@item.Subject</div>
+                                            </div>
                                         </a>
                                     </li>
                                     <hr />
