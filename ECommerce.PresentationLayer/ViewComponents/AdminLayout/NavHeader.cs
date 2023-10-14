@@ -20,8 +20,8 @@ namespace ECommerce.PresentationLayer.ViewComponents.AdminLayout
         {
             //Mesaj bildirimleri
             string url = "https://localhost:7175/api/AdminMessage/GetAllMessagesForReceiver?userName=" + User.Identity.Name;
-            var values = await _apiService.GetTableData<ResultMessageDto>(url);
-
+            var valuesNotFiltered = await _apiService.GetTableData<ResultMessageDto>(url);
+            var values = valuesNotFiltered.Where(x => x.isReadForReceiver == false).ToList();
             List<NewMessageNotificationViewModel> notification = new();
 
             foreach (var row in values)
