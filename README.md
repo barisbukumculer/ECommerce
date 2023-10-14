@@ -6,7 +6,7 @@ sipariş oluşturma işlemlerini yapabilmektedir.
 ## Kullanılan Teknolojiler
 - Azure DevOps 
 - Azure SQL Cloud Database 
-- .Net Core 7.0 
+- .Net Core 6.0 
 - N Tier Architecture
 - Entity Framework 
 - HTML, CSS, BOOTSTRAP
