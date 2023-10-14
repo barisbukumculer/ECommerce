@@ -1,5 +1,5 @@
 # ModaMania E-Ticaret Projesi
-Bu proje, .NetCore7.0 Azure DevOps ve Azure SQL Cloud Database kullanarak grupça yaptığımız bir bitirme projesidir. Projemizde bir moda e-ticaret sistemini ele aldık. Dinamik yapısını kurduğumuz projemizde, admin ve katalog panelleri bulunmaktadır.
+Bu proje, .NetCore 6.0 Azure DevOps ve Azure SQL Cloud Database kullanarak grupça yaptığımız bir bitirme projesidir. Projemizde bir moda e-ticaret sistemini ele aldık. Dinamik yapısını kurduğumuz projemizde, admin ve katalog panelleri bulunmaktadır.
 Identity kütüphanesini kullanarak oluşturulan kullanıcıların ayarlarını, ürün, kategori, çalışan ayarlarını düzenleyebileceğimiz admin panelinde fotoğraf yükleme, mail atma, uygulama içi mesajlaşma işlemlerini rahatlıkla yapılabilmektedir. Katalog tarafında mail doğrulamalı kayıt olma, giriş yapmış kullanıcının ürünleri sepete ekleme ve
 sipariş oluşturma işlemlerini yapabilmektedir. 
 
